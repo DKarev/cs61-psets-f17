@@ -10,4 +10,5 @@ Grading notes (if any)
 
 
 Extra credit attempted (if any)
--------------------------------
+———————————————
+We also implemented frequent-hitter checking.

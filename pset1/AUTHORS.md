@@ -3,16 +3,18 @@ Authors and collaborators
 
 Students
 --------
-(List your team members and describe in a couple words how you divided the
-work.)
+
+Dimitar Karev (me)
+Avi Swartz (partner) - we only discussed different algorithms and approaches but we coded them on our own.
 
 
 Collaborators
 -------------
-(List any other collaborators and describe help you got from other people in
-the class.)
+
 
 
 Citations
 ---------
-(List any other sources consulted.)
+http://www.mathcs.emory.edu/~cheung/Courses/584-StreamDB/Syllabus/07-Heavy/Manku.html
+
+	This website describes the Lossy Counting Algorithm published in "Approximate Frequency Counts over Data Streams", 2002, Manku and Motwani, that we used for doing the heavy hitter and high frequency reports.
