@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
         io61_seek(outf, pos);
         io61_write(outf, buf, amount);
     }
-
+    free(blockpos);
     io61_close(inf);
     io61_close(outf);
     io61_profile_end();

@@ -222,13 +222,15 @@ ssize_t io61_read(io61_file* f, char* buf, size_t sz)
 
         f->first = f->last+1;
         f->last = f->last + read_size;
-            
-        memcpy(buf+nbytes, f->cache, min(sz,read_size));
+        
+        //printf("Hello\n");
+        //printf("%zu %zu\n", sz, read_size );
+        memcpy(buf+nbytes, f->cache, min(sz-nbytes,read_size));    
         
 
         f->was_seek=0;
-        f->pntr += min(sz,read_size)+nbytes;
-        return min(sz,read_size)+nbytes;
+        f->pntr += min(sz-nbytes,read_size)+nbytes;
+        return min(sz-nbytes,read_size)+nbytes;
 
     }
 
